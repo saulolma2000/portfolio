@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title> Desenvolvedor </title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="container">
+                <div class="logo"> SL </div>
+                <ul class="nav-links">
+                    <li> <a href="#sobre"> Sobre </a> </li>
+                    <li> <a href="#skills"> Skills </a></li>
+                    <li> <a href="#projetos"> Projetos </a></li>
+                    <li> <a href="#contato"> Contato </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="sobre" class="dev container fade-in">
+                <div class="dev-texto">
+                    <h1> Saulo Lima </h1>
+                    <p> Eu sou um desenvolvedor full-stack apaixonado, especializado em criar aplicações Backend e Frontend. </p>
+                    <a class="botao-de-contato" href="#contato"> Entre em contato </a>
+                </div>
+                <div class="dev-imagem">
+                    <img src="/dude.png" class="imagem-perfil">
+                </div>
+            </section>
+
+            <section id="skills" class="container fade-in">
+                <h2> Skills </h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128187;</div>
+                        <h3> Frontend </h3>
+                        <p> HTML, CSS, Javascript, React </p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128295;</div>
+                        <h3> Backend </h3>
+                        <p> Java </p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128202;</div>
+                        <h3> Banco de dados </h3>
+                        <p> PostgreSQL, Oracle </p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon">&#128736;</div>
+                        <h3> Ferramentas </h3>
+                        <p> Git, Docker, Postman, Docker, SpringBoot, Linux, AWS </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projetos" class="container fade-in">
+                <h2> Projetos </h2>
+                <div class="projetos-grid">
+                    <div class="projeto-card"> 
+                        <h3 class="titulo-projeto"> PulseFit </h3>
+                        <p> O App para Gerenciamento de Aulas e Acompanhamento de Performance é uma aplicação desenvolvida para profissionais da Educação Física, como professores e personal trainers, que desejam gerenciar o cronograma de aulas e monitorar o desempenho de seus clientes. 
+                        </p>
+                        <div class="projeto-tags">
+                            <span> Java </span>
+                            <span> Arquitetura Hexagonal </span>
+                            <span> API REST </span>
+                        </div>
+                    </div>
+                    <div class="projeto-card">
+                        <h3 class="titulo-projeto"> API De Blog </h3>
+                        <p> A API de Blog é uma aplicação que permite a criação, leitura, atualização e exclusão de posts de blog por meio de requisições HTTP (CRUD). </p>
+                        <div class="projeto-tags">
+                            <span> Java </span>
+                            <span> HTTP </span>
+                            <span> SpringBoot </span>
+                        </div>
+                    </div>
+                    <div class="projeto-card">
+                        <h3 class="titulo-projeto"> Sistema De Gerenciamento De Pessoas </h3>
+                        <p> O Sistema de Gerenciamento de Pessoas é uma aplicação voltada para facilitar a gestão de dados de funcionários, como nome, cargo, departamento e salário. </p>
+                        <div class="projeto-tags">
+                            <span> Java </span>
+                            <span> Postman </span>
+                            <span> PostgreSQL </span>
+                        </div>
+                    </div>
+                    <div class="projeto-card">
+                        <h3 class="titulo-projeto"> Buscador de Informações de Usuários do GitHub </h3>
+                        <p> Buscador de Informações de Usuários do GitHub é uma aplicação em Java que utiliza a API do GitHub para buscar e exibir informações detalhadas de qualquer perfil público. </p>
+                        <div class="projeto-tags">
+                            <span> Java </span>
+                            <span> Postman </span>
+                            <span> HTTPClient </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="contato" class="contato fade-in">
+                <h2 class="titulo-contato"> Contate-me! </h2>
+                <form class="contato-form">
+                    <div class="grupo-formulario">
+                        <label for="nome"> Nome </label>
+                        <input id="nome" name="nome" required>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="email"> Email </label>
+                        <input id="email" name="email" required>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="mensagem"> Mensagem </label>
+                        <textarea id="mensagem" name="mensagem" required> </textarea>
+                    </div>
+                    <button type="submit"> Mandar mensagem</button>
+                </form>
+                <div class="icones-contato">
+                    <a href="https://wa.me/5588992387988" class="icone-social" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/saulo-de-lima-9556a3223/" class="icone-social" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/saulo.de_lima" class="icone-social" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </section>
+
+            <footer>
+                <ul class="icones-footer">
+                    <li>&#128187;</li>
+                    <li>&#128101;</li>
+                    <li>&#128038;</li>
+                </ul>
+                <p>&copy;  2024 Saulo Lima. Todos os direitos reservados</p>
+            </footer>
+        </main>
+    </body>
+</html>
+</html>
